@@ -17,7 +17,7 @@
 
 ## About this project
 
-This is a demo project for the [SecTester NET SDK framework](https://github.com/NeuraLegion/sectester-net), with some installation and usage examples. We recommend forking it and playing around, that’s what it’s for!
+This is a demo project for the [SecTester NET SDK framework](https://github.com/BrightSec/sectester-net), with some installation and usage examples. We recommend forking it and playing around, that’s what it’s for!
 
 ## About SecTester
 
@@ -225,7 +225,7 @@ public class AppFixture : WebApplicationFactory<Program>
 }
 ```
 
-The [`SecTester.Runner`](https://github.com/NeuraLegion/sectester-net/tree/master/src/SecTester.Runner) project provides a set of utilities that allows scanning the demo application for vulnerabilities. Let's expand the previous example using the built-in `SecRunner` class:
+The [`SecTester.Runner`](https://github.com/BrightSec/sectester-net/tree/master/src/SecTester.Runner) project provides a set of utilities that allows scanning the demo application for vulnerabilities. Let's expand the previous example using the built-in `SecRunner` class:
 
 ```csharp
 public class AppTests : IClassFixture<AppFixture>, IAsyncLifetime
@@ -499,7 +499,7 @@ public class AppTests : IClassFixture<AppFixture>, IAsyncLifetime
 }
 ```
 
-Full documentation can be found in the [`SecTester.Runner`](https://github.com/NeuraLegion/sectester-net/tree/master/src/SecTester.Runner) README.
+Full documentation can be found in the [`SecTester.Runner`](https://github.com/BrightSec/sectester-net/tree/master/src/SecTester.Runner) README.
 
 ### Recommended tests
 
@@ -573,8 +573,8 @@ For a full list of CI configuration examples, check out the docs below.
 
 Please read [contributing guidelines here](./CONTRIBUTING.md).
 
-<a href="https://github.com/NeuraLegion/sectester-net-demo/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=NeuraLegion/sectester-net-demo"/>
+<a href="https://github.com/BrightSec/sectester-net-demo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=BrightSec/sectester-net-demo"/>
 </a>
 
 ## License

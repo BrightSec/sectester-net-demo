@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NeuraLegion/sectester-net-demo.git"
+    "url": "git+https://github.com/BrightSec/sectester-net-demo.git"
   },
   "engines": {
     "node": ">=16",
@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NeuraLegion/sectester-net-demo/issues"
+    "url": "https://github.com/BrightSec/sectester-net-demo/issues"
   },
   "commitlint": {
     "extends": [
@@ -26,7 +26,7 @@
   "scripts": {
     "semantic-release": "semantic-release"
   },
-  "homepage": "https://github.com/NeuraLegion/sectester-net-demo#readme",
+  "homepage": "https://github.com/BrightSec/sectester-net-demo#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
