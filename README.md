@@ -48,8 +48,8 @@ Trying out Bright’s SecTester is _**free**_ 💸, so let’s get started!
 
 ### Get a Bright API key
 
-1.  Register for a free account at Bright’s [**signup**](https://app.neuralegion.com/signup) page
-2.  Optional: Skip the quickstart wizard and go directly to [**User API key creation**](https://app.neuralegion.com/profile)
+1.  Register for a free account at Bright’s [**signup**](https://app.brightsec.com/signup) page
+2.  Optional: Skip the quickstart wizard and go directly to [**User API key creation**](https://app.brightsec.com/profile)
 3.  Create a Bright API key ([**check out our doc on how to create a user key**](https://docs.brightsec.com/docs/manage-your-personal-account#manage-your-personal-api-keys-authentication-tokens))
 4.  Save the Bright API key
 5.  We recommend using your Github repository secrets feature to store the key, accessible via the `Settings > Security > Secrets > Actions` configuration. We use the ENV variable called `BRIGHT_TOKEN` in our examples
