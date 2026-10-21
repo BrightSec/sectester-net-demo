@@ -128,7 +128,7 @@ This can take a few minutes, and then you should see the result, like in the fol
   Error Message:
    SecTester.Runner.IssueFound : Target is vulnerable
 
-Issue in Bright UI:   https://development.playground.neuralegion.com/scans/kPzCzYEEVqtqqi8K13x9zY/issues/5YwVwZpcKQNgPpX2YP6XEb
+Issue in Bright UI:   https://development.playground.brightsec.com/scans/kPzCzYEEVqtqqi8K13x9zY/issues/5YwVwZpcKQNgPpX2YP6XEb
 Name:                 SQL Injection
 Severity:             High
 Remediation:
@@ -166,7 +166,7 @@ Extra Details:
 References:
 ● https://cwe.mitre.org/data/definitions/89.html
 ● https://www.owasp.org/index.php/SQL_Injection
-● https://www.neuralegion.com/blog/sql-injection-sqli/
+● https://www.brightsec.com/blog/sql-injection-sqli/
 ● https://kb.neuralegion.com/#/guide/vulnerabilities/3-sql-injection.md
   Stack Trace:
      at SecTester.Runner.SecScan.Assert(IScan scan) in /home/runner/work/sectester-net/sectester-net/src/SecTester.Runner/SecScan.cs:line 64
