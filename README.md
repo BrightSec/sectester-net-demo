@@ -17,7 +17,7 @@
 
 ## About this project
 
-This is a demo project for the [SecTester NET SDK framework](https://github.com/NeuraLegion/sectester-net), with some installation and usage examples. We recommend forking it and playing around, that’s what it’s for!
+This is a demo project for the [SecTester NET SDK framework](https://github.com/BrightSec/sectester-net), with some installation and usage examples. We recommend forking it and playing around, that’s what it’s for!
 
 ## About SecTester
 
@@ -48,8 +48,8 @@ Trying out Bright’s SecTester is _**free**_ 💸, so let’s get started!
 
 ### Get a Bright API key
 
-1.  Register for a free account at Bright’s [**signup**](https://app.neuralegion.com/signup) page
-2.  Optional: Skip the quickstart wizard and go directly to [**User API key creation**](https://app.neuralegion.com/profile)
+1.  Register for a free account at Bright’s [**signup**](https://app.brightsec.com/signup) page
+2.  Optional: Skip the quickstart wizard and go directly to [**User API key creation**](https://app.brightsec.com/profile)
 3.  Create a Bright API key ([**check out our doc on how to create a user key**](https://docs.brightsec.com/docs/manage-your-personal-account#manage-your-personal-api-keys-authentication-tokens))
 4.  Save the Bright API key
 5.  We recommend using your Github repository secrets feature to store the key, accessible via the `Settings > Security > Secrets > Actions` configuration. We use the ENV variable called `BRIGHT_TOKEN` in our examples
@@ -128,7 +128,7 @@ This can take a few minutes, and then you should see the result, like in the fol
   Error Message:
    SecTester.Runner.IssueFound : Target is vulnerable
 
-Issue in Bright UI:   https://development.playground.neuralegion.com/scans/kPzCzYEEVqtqqi8K13x9zY/issues/5YwVwZpcKQNgPpX2YP6XEb
+Issue in Bright UI:   https://development.playground.brightsec.com/scans/kPzCzYEEVqtqqi8K13x9zY/issues/5YwVwZpcKQNgPpX2YP6XEb
 Name:                 SQL Injection
 Severity:             High
 Remediation:
@@ -166,7 +166,7 @@ Extra Details:
 References:
 ● https://cwe.mitre.org/data/definitions/89.html
 ● https://www.owasp.org/index.php/SQL_Injection
-● https://www.neuralegion.com/blog/sql-injection-sqli/
+● https://www.brightsec.com/blog/sql-injection-sqli/
 ● https://kb.neuralegion.com/#/guide/vulnerabilities/3-sql-injection.md
   Stack Trace:
      at SecTester.Runner.SecScan.Assert(IScan scan) in /home/runner/work/sectester-net/sectester-net/src/SecTester.Runner/SecScan.cs:line 64
@@ -225,7 +225,7 @@ public class AppFixture : WebApplicationFactory<Program>
 }
 ```
 
-The [`SecTester.Runner`](https://github.com/NeuraLegion/sectester-net/tree/master/src/SecTester.Runner) project provides a set of utilities that allows scanning the demo application for vulnerabilities. Let's expand the previous example using the built-in `SecRunner` class:
+The [`SecTester.Runner`](https://github.com/BrightSec/sectester-net/tree/master/src/SecTester.Runner) project provides a set of utilities that allows scanning the demo application for vulnerabilities. Let's expand the previous example using the built-in `SecRunner` class:
 
 ```csharp
 public class AppTests : IClassFixture<AppFixture>, IAsyncLifetime
@@ -499,7 +499,7 @@ public class AppTests : IClassFixture<AppFixture>, IAsyncLifetime
 }
 ```
 
-Full documentation can be found in the [`SecTester.Runner`](https://github.com/NeuraLegion/sectester-net/tree/master/src/SecTester.Runner) README.
+Full documentation can be found in the [`SecTester.Runner`](https://github.com/BrightSec/sectester-net/tree/master/src/SecTester.Runner) README.
 
 ### Recommended tests
 
@@ -573,8 +573,8 @@ For a full list of CI configuration examples, check out the docs below.
 
 Please read [contributing guidelines here](./CONTRIBUTING.md).
 
-<a href="https://github.com/NeuraLegion/sectester-net-demo/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=NeuraLegion/sectester-net-demo"/>
+<a href="https://github.com/BrightSec/sectester-net-demo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=BrightSec/sectester-net-demo"/>
 </a>
 
 ## License

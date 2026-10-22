@@ -10,7 +10,7 @@
     <PackageTags>security;testing;e2e;test,.net;appsec;pentesting;qa;brightsec;scan;dast;demo</PackageTags>
     <RepositoryType>git</RepositoryType>
     <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>
-    <RepositoryUrl>https://github.com/NeuraLegion/sectester-net-demo</RepositoryUrl>
+    <RepositoryUrl>https://github.com/BrightSec/sectester-net-demo</RepositoryUrl>
 
     <PackageProjectUrl>https://brightsec.com/</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
